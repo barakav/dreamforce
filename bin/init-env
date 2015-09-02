@@ -2,7 +2,6 @@
 'use strict';
 
 var replace = require("replace");
-var filePath = path.join(__dirname, '../app/index.html');
 
 replace({
     regex: "$APIURL$",
