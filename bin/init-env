@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict';
+
+var replace = require("replace");
+var filePath = path.join(__dirname, '../app/index.html');
+
+replace({
+    regex: "$APIURL$",
+    replacement: process.env.API_URL,
+    paths: ['path/to/your/file'],
+    recursive: true,
+    silent: true,
+});

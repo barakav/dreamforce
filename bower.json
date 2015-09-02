@@ -1,0 +1,21 @@
+{
+  "name": "dreamforce",
+  "version": "0.0.1",
+  "authors": [
+    "Go Nimbly"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "Go Nimbly Private License",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  }
+}
