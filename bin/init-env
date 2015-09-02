@@ -7,7 +7,7 @@ var filePath = path.join(__dirname, '../app/index.html');
 replace({
     regex: "$APIURL$",
     replacement: process.env.API_URL,
-    paths: ['path/to/your/file'],
+    paths: ['../app/index.html'],
     recursive: true,
     silent: true,
 });
